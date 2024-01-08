@@ -1,7 +1,11 @@
 .box{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   height: 600;
+   width: 1320;
+   position: relative
+}
+.box img{
+    width: 80%;
+    display: block
 }
 .label1{
     <style>
@@ -26,10 +30,10 @@
 }
 .label2{
     text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: 95px;
-\color: #FFF;\
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    \color: #FFF;\
 }
