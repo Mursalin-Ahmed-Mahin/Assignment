@@ -1,12 +1,10 @@
 .box{
-   height: 600;
-   width: 1320;
-   position: relative
+  width: 1320px;
+  height: 600px;
+  position: relative;
+  margin: auto;
 }
-.box img{
-    width: 80%;
-    display: block
-}
+  
 .label1{
     <style>
   @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
@@ -14,13 +12,17 @@
     font-family: 'Merriweather', serif;
 }
 .label1{
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%,-50%);
     text-align: center;
     font-family: Merriweather;
-    font-size: 32px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    \color: #FFF;\
+    color: #FFF;
 }
 .label2{
     <style>
@@ -29,11 +31,15 @@
       font-family: 'Merriweather', serif;
 }
 .label2{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
-    \color: #FFF;\
+    color: #FFF;
 }
